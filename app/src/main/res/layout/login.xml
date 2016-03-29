@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:padding="10dip"
+    android:id="@+id/layout1" android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#327c24"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Usuario"
+        android:id="@+id/tv_Usuario"
+        android:layout_marginTop="25dip"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"
+        android:id="@+id/et_Usuario"
+        android:background="@drawable/edittext_rounded_corners"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contraseña"
+        android:id="@+id/tv_contrasenia" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:password="true"
+        android:ems="10"
+        android:id="@+id/et_contrasenia"
+        android:background="@drawable/edittext_rounded_corners"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Ingresar"
+        android:id="@+id/bt_Ingresar" />
+
+    <TextView
+        android:id="@+id/tv_olvidaPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip"
+        android:text="Cuál es mi contraseña?"
+        android:gravity="center"
+        android:textSize="20dip"
+        android:textColor="#0b84aa"/>
+
+</LinearLayout>
