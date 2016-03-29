@@ -18,7 +18,6 @@ public class Principal extends Activity{
     String user;
     TextView txt_user, logoff;
     ImageButton anuncio;
-    Button boton;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
