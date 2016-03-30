@@ -12,10 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_gravity="center_horizontal"
-        android:padding="50dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="1dp"
         android:background="@drawable/banner"
-        android:layout_weight="1.15">
+        android:layout_weight="1.18">
 
     </LinearLayout>
 
@@ -26,8 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:padding="15dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp">
+        android:layout_marginRight="30dp">
 
         <TextView
             android:layout_width="fill_parent"
@@ -36,7 +34,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Usuario"
             android:id="@+id/tv_Usuario"
-            android:layout_marginTop="25dp"/>
+            android:layout_marginTop="15dp"/>
 
         <EditText
             android:layout_width="fill_parent"
@@ -68,7 +66,7 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:text="Ingresar"
             android:id="@+id/bt_Ingresar" />
 
@@ -79,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:padding="0dp"
+        android:padding="30dp"
         android:background="#333">
 
         <TextView
@@ -90,8 +88,8 @@
             android:gravity="top|center"
             android:textSize="20dp"
             android:textColor="#fff"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="60dp"/>
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="40dp"/>
 
 
     </LinearLayout>

@@ -112,9 +112,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             JSONArray json = new JSONArray(datos);
             String texto = "";
             for (int i = 0; i < json.length(); i++){
-                texto = "id: "+json.getJSONObject(i).getString("id") + "\n" +
-                        "Titulo: "+json.getJSONObject(i).getString("titulo") + "\n" +
-                        "Mensaje: "+json.getJSONObject(i).getString("mensaje");
+                texto = json.getJSONObject(i).getString("titulo") + "\n\n"
+                        + json.getJSONObject(i).getString("mensaje");
                 listado.add(texto);
             }
         }catch (Exception e){
