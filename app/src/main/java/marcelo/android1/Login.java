@@ -25,7 +25,7 @@ public class Login extends Activity implements OnClickListener{
     private ProgressDialog pDialog;
     // JSON parser class
     JSONParser jsonParser = new JSONParser();
-    private static final String LOGIN_URL = "http://bafuach.netau.net/android/login.php";
+    private static final String LOGIN_URL = "http://bafuach.esy.es/android/login.php";
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";
 
@@ -63,7 +63,7 @@ public class Login extends Activity implements OnClickListener{
         protected void onPreExecute() {
             super.onPreExecute();
             pDialog = new ProgressDialog(Login.this);
-            pDialog.setMessage("Attempting for login...");
+            pDialog.setMessage("Autenticando...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
@@ -84,7 +84,7 @@ public class Login extends Activity implements OnClickListener{
                 // success tag for json
                 success = json.getInt(TAG_SUCCESS);
                 if (success == 1) {
-                    Log.d("Successfully Login!", json.toString());
+                    Log.d("Ingreso Exitoso!", json.toString());
                     Intent ii = new Intent(Login.this,Principal.class);
                     // this finish() method is used to tell android os that we are done with current
                     //activity now! Moving to other activity

@@ -93,7 +93,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public String leer() {
         HttpClient cliente = new DefaultHttpClient();
         HttpContext contexto = new BasicHttpContext();
-        HttpGet httpget = new HttpGet("http://bafuach.netau.net/android/GetData.php");
+        HttpGet httpget = new HttpGet("http://bafuach.esy.es/android/GetData.php");
         String resultado = null;
         try{
             HttpResponse response = cliente.execute(httpget, contexto);
