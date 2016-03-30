@@ -9,7 +9,7 @@
         android:layout_height="10dp"
         android:layout_gravity="center_horizontal"
         android:padding="50dp"
-        android:layout_marginBottom="25px"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/banner"
         android:layout_weight="1.15">
 
@@ -38,7 +38,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_weight="0"
-        android:padding="40dp">
+        android:padding="36.5dp">
 
         <ImageButton
             android:layout_width="wrap_content"
